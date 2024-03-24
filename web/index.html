@@ -36,6 +36,25 @@
     // The value below is injected by flutter build, do not touch.
     const serviceWorkerVersion = null;
   </script>
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.9.0/firebase-app.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+      apiKey: "AIzaSyA8ahH63uPZc7NnbKkY3xEZu4rDYxVoERI",
+      authDomain: "afford-b88aa.firebaseapp.com",
+      projectId: "afford-b88aa",
+      storageBucket: "afford-b88aa.appspot.com",
+      messagingSenderId: "766801026486",
+      appId: "1:766801026486:web:08af1e987c2b35ef4d3517"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+  </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
 </head>
